@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @sushi.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @sushi.description %>
+</p>
+
+<%= link_to 'Edit', edit_sushi_path(@sushi) %> |
+<%= link_to 'Back', sushis_path %>
