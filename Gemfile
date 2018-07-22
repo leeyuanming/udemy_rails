@@ -3,8 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
-# Use pg as the database for Active Record
-gem 'pg', '~> 0.11'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -43,5 +42,7 @@ end
 
 
 group :production do
+  # Use pg as the database for Active Record
+  gem 'pg', '~> 0.11'
   gem 'rails_12factor'
 end
