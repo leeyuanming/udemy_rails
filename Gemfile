@@ -3,7 +3,11 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
+<<<<<<< HEAD
 
+=======
+# gem 'sqlite3'
+>>>>>>> 3131102574f715643e009a9366616e756f7c5521
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
