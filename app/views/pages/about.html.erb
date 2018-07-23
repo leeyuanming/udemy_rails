@@ -1,84 +1,51 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="/app/assets/stylesheets/style.css">
-    <title>About</title>
-  </head>
-  
-  <body>
+<%= render 'layouts/navbar' %>
     
-    <!-- Navbar -->
-    <ul class="navbar">
-      <li><%= link_to 'Home', root_path, class: 'navbar-link' %></li>
-      <li><%= link_to 'About', about_path, class: 'navbar-link' %></li>
-      <li><%= link_to 'Sushi', sushis_path, class: 'navbar-link' %></li>
-      <li><%= link_to 'Articles', articles_path, class: 'navbar-link' %></li>
-    </ul>
-    
-    <table class="centered-table-mid">
-      <caption class="home-title">
-        Nigiri A-Z
-      </caption>
-      
-      <tr>
-        <td><img src="http://www.alighaemi.com/wp/wp-content/uploads/anago.jpg"</td>
-        <td>
-          <h3><span class="capital-letter">A</span>nago 穴子 | Conger Eel</h3>
-          <br>
-          A lighter and fluffier version of its more popular cousin, unagi. It is best found and eaten in the summer.
-        </td>  
-      </tr>
-      
-      <tr>
-        <td><img src="http://www.alighaemi.com/wp/wp-content/uploads/Botanebi.jpg"</td>
-        <td>
-          <h3><span class="capital-letter">B</span>otan Ebi ボタンエビ | Botan Shrimp</h3>
-          <br>
-          This larger Prawn is found in the winter.
-        </td>  
-      </tr>
-      
-      <tr>
-        <td><img src="http://www.alighaemi.com/wp/wp-content/uploads/chutoro.jpg"</td>
-        <td>
-          <h3><span class="capital-letter">C</span>hutoro 中とろ | Tuna Belly, Medium Fat</h3>
-          <br>
-          Expensive medium fatty cut of Tuna from near the flank and belly of the fish. While Otoro, the fattiest cut, is most prized the Chutoro is a close second. Chutoro is the fatty part of tuna, which lines the inner portion of the said fish’s belly.
-        </td>
-      </tr>
-      
-      <tr>
-        <td><img src="https://media-cdn.tripadvisor.com/media/photo-s/03/7f/fd/37/fuji-japanese-restaurant.jpg"</td>
-        <td>
-          <h3><span class="capital-letter">D</span>atsu 駄津 | Needlefish</h3>
-          <br>
-          Datsu have two ‘beaks.’ It is often used for making Kamaboko, fish paste loaf as its nutritional use is limited. It is called Shijar in Okinawa. It is also sometimes called Houndfish.        </td>
-      </tr>
-      
-      <tr>
-        <td><img src="https://obs.line-scdn.net/0m00a78b6e5a167057616d78783c676b77293527752547214f157e203a2c2e38352c3331373f37395d3f/f280x280"</td>
-        <td>
-          <h3><span class="capital-letter">E</span>ngawa 縁側 | Dorsal muscle of Hirame Fluke</h3>
-          <br>
-          It is available year round, but is more common in the summer.
-      </tr>
-      
-    </table>
-    
-    
-  </body>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</html>
+<table class="centered-table-mid">
+  <caption class="home-title">
+    Nigiri A-Z
+  </caption>
+
+  <tr>
+    <td><img src="http://www.alighaemi.com/wp/wp-content/uploads/anago.jpg"</td>
+    <td>
+      <h3><span class="capital-letter">A</span>nago 穴子 | Conger Eel</h3>
+      <br>
+      A lighter and fluffier version of its more popular cousin, unagi. It is best found and eaten in the summer.
+    </td>  
+  </tr>
+
+  <tr>
+    <td><img src="http://www.alighaemi.com/wp/wp-content/uploads/Botanebi.jpg"</td>
+    <td>
+      <h3><span class="capital-letter">B</span>otan Ebi ボタンエビ | Botan Shrimp</h3>
+      <br>
+      This larger Prawn is found in the winter.
+    </td>  
+  </tr>
+
+  <tr>
+    <td><img src="http://www.alighaemi.com/wp/wp-content/uploads/chutoro.jpg"</td>
+    <td>
+      <h3><span class="capital-letter">C</span>hutoro 中とろ | Tuna Belly, Medium Fat</h3>
+      <br>
+      Expensive medium fatty cut of Tuna from near the flank and belly of the fish. While Otoro, the fattiest cut, is most prized the Chutoro is a close second. Chutoro is the fatty part of tuna, which lines the inner portion of the said fish’s belly.
+    </td>
+  </tr>
+
+  <tr>
+    <td><img src="https://media-cdn.tripadvisor.com/media/photo-s/03/7f/fd/37/fuji-japanese-restaurant.jpg"</td>
+    <td>
+      <h3><span class="capital-letter">D</span>atsu 駄津 | Needlefish</h3>
+      <br>
+      Datsu have two ‘beaks.’ It is often used for making Kamaboko, fish paste loaf as its nutritional use is limited. It is called Shijar in Okinawa. It is also sometimes called Houndfish.        </td>
+  </tr>
+
+  <tr>
+    <td><img src="https://obs.line-scdn.net/0m00a78b6e5a167057616d78783c676b77293527752547214f157e203a2c2e38352c3331373f37395d3f/f280x280"</td>
+    <td>
+      <h3><span class="capital-letter">E</span>ngawa 縁側 | Dorsal muscle of Hirame Fluke</h3>
+      <br>
+      It is available year round, but is more common in the summer.
+  </tr>
+
+</table>

@@ -1,25 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="/app/assets/stylesheets/style.css">
-    <title>About</title>
-  </head>
-  
-  <body>
-    
-    <!-- Navbar -->
-    <ul class="navbar">
-      <li><%= link_to 'Home', root_path, class: 'navbar-link' %></li>
-      <li><%= link_to 'About', about_path, class: 'navbar-link' %></li>
-      <li><%= link_to 'Sushi', sushis_path, class: 'navbar-link' %></li>
-      <li><%= link_to 'Articles', articles_path, class: 'navbar-link' %></li>
-    </ul>
+<%= render 'layouts/navbar' %>
 
-    <h1>
-      Edit existing article
-    </h1>
+<h1>
+  Edit existing article
+</h1>
 
-    <%= render 'form' %>
-    
-  </body>
-</html>
+<%= render 'form' %>
