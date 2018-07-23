@@ -1,21 +1,23 @@
 <h1>
-  Articles
+  Listing all articles
 </h1>
 
+<p>
+  <%= link_to 'Create new article', new_article_path %>
+</p>
+
 <table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Description</th>
-    </tr>
-  </thead>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+  </tr>
   
-  <tbody>
-    <%= @articles.each do |a| %>
-      <tr>
-        <td><%= a.title %></td>
-        <td><%= a.description %></td>
-      </tr>
-    <% end %>
-  </tbody>
+  <%= @articles.each do |a| %>
+    <tr>
+      <td><%= a.title %></td>
+      <td><%= a.description %></td>
+      <td><%= link_to 'Show', article_path(a) %></td>
+      <td><%= link_to 'Edit', edit_article_path(a) %></td>
+    </tr>
+  <% end %>
 </table>
