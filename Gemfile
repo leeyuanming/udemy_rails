@@ -37,9 +37,9 @@ gem 'spring',        group: :development
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-gem 'sqlite3'
-  # Use debugger
-  # gem 'debugger', group: [:development, :test]
+  gem 'sqlite3'
+  # Use byebug
+  gem 'byebug', '~> 2.1'
   
 end  
 
