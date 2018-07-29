@@ -48,7 +48,7 @@ end
 
 group :production do
   # Use pg as the database for Active Record
-  gem 'pg'
+  gem 'pg', '~> 0.11'
   gem 'rails_12factor'
   gem 'puma'
 end
